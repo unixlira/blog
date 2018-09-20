@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'welcome';
 });
+
+Route::get('produtos', 'ProdutosController@index');
